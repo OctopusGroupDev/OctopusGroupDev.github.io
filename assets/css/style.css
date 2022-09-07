@@ -18496,12 +18496,19 @@ input::placeholder, textarea::placeholder{
 .img_project{
     height: 30%;
     width: 50%;
+    border-radius: 10px;
+    /* box shadow white */
+    
 }
 
 .project_description{
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+.tech_used{
+    margin-top: -10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -18513,6 +18520,26 @@ input::placeholder, textarea::placeholder{
         width: 100%;
     }
 }
+
+.icons_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons_container img{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.icons_container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*
 #purchase-now, #selector, #back-to-top{
